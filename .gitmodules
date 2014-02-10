@@ -1,3 +1,6 @@
 [submodule "deps/phaser"]
 	path = deps/phaser
 	url = https://github.com/photonstorm/phaser
+[submodule "deps/planetcute.png"]
+	path = deps/planetcute.png
+	url = https://github.com/nfirvine/planetcute.png.git
