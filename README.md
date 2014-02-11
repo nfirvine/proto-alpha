@@ -3,6 +3,14 @@ proto-alpha
 
 Maple Games' Prototype Alpha
 
+Getting
+-------
+
+    git clone https://github.com/nfirvine/proto-alpha
+    cd proto-alpha
+    git submodule init
+    git submodule update --recursive
+
 Running
 -------
 

@@ -114,14 +114,6 @@ window.onload = function() {
         gamepadjs.bind('connected', on_gamepadconnected);
         gamepadjs.bind('disconnected', on_gamepaddisconnected);
         gamepadjs.init();
-        /* these don't work cross-browser
-        window.addEventListener('gamepadconnected', on_gamepadconnected);
-        window.addEventListener('MozGamepadConnected', on_gamepadconnected);
-        window.addEventListener('webkitgamepadconnected', on_gamepadconnected);
-        window.addEventListener('gamepaddisconnected', on_gamepaddisconnected);
-        window.addEventListener('MozGamepadDisconnected', on_gamepaddisconnected);
-        window.addEventListener('webkitgamepaddisconnected', on_gamepaddisconnected);
-        */
         var logo = game.add.sprite(game.world.centerX, game.world.centerY, 'logo');
         logo.anchor.setTo(0.5, 0.5);
     }
