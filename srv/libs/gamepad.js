@@ -1,0 +1,1 @@
+../../deps/kallaspriit-gamepadjs/gamepad.js
